@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2024-07-12T08:06:17.448Z",
+    "end": "2024-07-12T08:06:17.638Z",
+    "duration": 190
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'liverpool' to equal 'Chelsea'",
+        "showDiff": true,
+        "actual": "liverpool",
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected 'liverpool' to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:21:45)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'darwin nunez' to equal 'Susan Smith'",
+        "showDiff": true,
+        "actual": "darwin nunez",
+        "expected": "Susan Smith",
+        "stack": "AssertionError: expected 'darwin nunez' to equal 'Susan Smith'\n    at Context.<anonymous> (test/indexTest.js:31:29)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'liverpool' to equal 'Chelsea'",
+        "showDiff": true,
+        "actual": "liverpool",
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected 'liverpool' to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:21:45)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'darwin nunez' to equal 'Susan Smith'",
+        "showDiff": true,
+        "actual": "darwin nunez",
+        "expected": "Susan Smith",
+        "stack": "AssertionError: expected 'darwin nunez' to equal 'Susan Smith'\n    at Context.<anonymous> (test/indexTest.js:31:29)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
